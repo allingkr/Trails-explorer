@@ -1,9 +1,17 @@
 
 {
-  "name": "trails-explorer",
-  "version": "1.0.0",
+  "name": "trails-app",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
-    "build": "echo done"
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
   }
 }
