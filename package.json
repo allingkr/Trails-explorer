@@ -4,6 +4,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo build"
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
   }
 }
